@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LIB">
+      <UniqueIdentifier>{113049ad-8f97-405e-b7fa-c2eb0d7c72af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GE">
+      <UniqueIdentifier>{e0294728-b669-4576-bbe8-b27e38689412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG">
+      <UniqueIdentifier>{b647d201-8c7c-4a86-b3a0-22febd645a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014">
+      <UniqueIdentifier>{d7b72f2d-ce20-4a7b-a5c7-094a09309868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Mesh">
+      <UniqueIdentifier>{56d93198-54a8-4d9f-9c63-bb879f760929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Base">
+      <UniqueIdentifier>{ba024894-c1cb-4329-8346-bcd2aaefd671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Image">
+      <UniqueIdentifier>{bf9539db-f2be-4d64-b289-6430eaa94e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Effect">
+      <UniqueIdentifier>{03445765-e85d-46d1-82ee-3157901d40fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Font">
+      <UniqueIdentifier>{b2e4e8df-22cb-4bce-98c5-89e914fb842d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DG2014\Object">
+      <UniqueIdentifier>{71aa57be-00e9-420b-b6f7-c1f785276368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DI2014">
+      <UniqueIdentifier>{5862f99e-0b18-46c5-8c66-f794bd25d4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks">
+      <UniqueIdentifier>{4721d42f-e82c-4cec-9cb0-53db628948c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8d64114e-801c-48b8-a839-7e124c05d6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\title">
+      <UniqueIdentifier>{f8490f6c-d2ea-46b0-9851-991bfb65c97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\ball">
+      <UniqueIdentifier>{28324957-9d68-42a0-b881-81eaddac8eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\game">
+      <UniqueIdentifier>{0d2f1ac2-da88-41c8-b171-bbce603f253f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Gravity">
+      <UniqueIdentifier>{2ce5a61e-806c-4992-80b8-ccfc0cc21bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\map">
+      <UniqueIdentifier>{ec3c490b-8940-4f06-8f03-23dbaf343a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Bbox">
+      <UniqueIdentifier>{6affa42c-fd48-4ee0-a97c-93cc8549cd94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Cursor">
+      <UniqueIdentifier>{4dfe7fba-b287-4a9d-ae9b-a09075da0b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Tutorial">
+      <UniqueIdentifier>{0c8a68bc-efec-458f-a21c-0fbb146c5d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\UI">
+      <UniqueIdentifier>{ab4500eb-35cd-4f5b-afe7-c449a8069d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LIB\DM2008">
+      <UniqueIdentifier>{bcc152c4-b55c-43ae-b512-0f7a24036ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Cameraman">
+      <UniqueIdentifier>{e1628e60-a95e-40c7-abb1-539c3d10964e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Obstacle">
+      <UniqueIdentifier>{b89a33fd-07c6-46c6-a23d-36b3b7c49133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Obstacle\Teleportaion">
+      <UniqueIdentifier>{21cac853-36af-483b-8619-cc2c3385d4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\EffectManager">
+      <UniqueIdentifier>{4967e13f-9e92-44ff-8454-02bcd40bc3b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\BEffect">
+      <UniqueIdentifier>{8c914333-62b8-4098-a148-2b18c873c955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Effect">
+      <UniqueIdentifier>{2e85247c-fb87-40d3-857e-4c1791da1421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Result">
+      <UniqueIdentifier>{f5fc417a-c27b-4a87-a8d2-facb878928dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\MyMath">
+      <UniqueIdentifier>{e832b3a3-800c-4b06-bf7d-4b5624bc20b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Collision">
+      <UniqueIdentifier>{7a372d06-94f8-4d60-83a9-b11365a0ee90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Tasks\Physics_Manager">
+      <UniqueIdentifier>{165f9a01-26ef-4713-ae03-34733c34f1d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myLib.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Mesh.cpp">
+      <Filter>LIB\DG2014\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Texture.cpp">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_VertexBuffer.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_VertexContainer.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_IndexBuffer.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_InputLayout.cpp">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Image.cpp">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Effect.cpp">
+      <Filter>LIB\DG2014\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Font.cpp">
+      <Filter>LIB\DG2014\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_DGObject.cpp">
+      <Filter>LIB\DG2014\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_MeshSOBFile.cpp">
+      <Filter>LIB\DG2014\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="xnacollision.cpp">
+      <Filter>LIB</Filter>
+    </ClCompile>
+    <ClCompile Include="DG2014\DG2014_Ver3_51.cpp">
+      <Filter>LIB\DG2014</Filter>
+    </ClCompile>
+    <ClCompile Include="DI2014_Ver3_4.cpp">
+      <Filter>LIB\DI2014</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine_Ver3_7.cpp">
+      <Filter>GE</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_title.cpp">
+      <Filter>MyPG\Tasks\title</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Ball.cpp">
+      <Filter>MyPG\Tasks\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Game.cpp">
+      <Filter>MyPG\Tasks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>MyPG\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>MyPG\Gravity</Filter>
+    </ClCompile>
+    <ClCompile Include="Bbox.cpp">
+      <Filter>MyPG\Bbox</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_cursor.cpp">
+      <Filter>MyPG\Tasks\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Tutorial.cpp">
+      <Filter>MyPG\Tasks\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Result.cpp">
+      <Filter>MyPG\Tasks\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_UI.cpp">
+      <Filter>MyPG\Tasks\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Dm2008_Ver1_3.cpp">
+      <Filter>LIB\DM2008</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_CameraMan.cpp">
+      <Filter>MyPG\Tasks\Cameraman</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleportation_Manager.cpp">
+      <Filter>MyPG\Obstacle\Teleportaion</Filter>
+    </ClCompile>
+    <ClCompile Include="BEffect.cpp">
+      <Filter>MyPG\BEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Effect_Manager.cpp">
+      <Filter>MyPG\Tasks\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>MyPG\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="easing.cpp" />
+    <ClCompile Include="MyPG.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="MyMath.cpp">
+      <Filter>MyPG\MyMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Physics_Manager.cpp">
+      <Filter>MyPG\Tasks\Physics_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_MapCore.cpp">
+      <Filter>MyPG\Tasks\map</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_MapFence.cpp">
+      <Filter>MyPG\Tasks\map</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_MapSide.cpp">
+      <Filter>MyPG\Tasks\map</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myLib.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="EFile.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Mesh.h">
+      <Filter>LIB\DG2014\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Texture.h">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_VertexBuffer.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_VertexContainer.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_IndexBuffer.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_InputLayout.h">
+      <Filter>LIB\DG2014\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Image.h">
+      <Filter>LIB\DG2014\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Effect.h">
+      <Filter>LIB\DG2014\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Font.h">
+      <Filter>LIB\DG2014\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_DGObject.h">
+      <Filter>LIB\DG2014\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="xnacollision.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="DG2014\DG2014_Ver3_51.h">
+      <Filter>LIB\DG2014</Filter>
+    </ClInclude>
+    <ClInclude Include="DI2014_Ver3_4.h">
+      <Filter>LIB\DI2014</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine_Ver3_7.h">
+      <Filter>GE</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_title.h">
+      <Filter>MyPG\Tasks\title</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Ball.h">
+      <Filter>MyPG\Tasks\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Game.h">
+      <Filter>MyPG\Tasks\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>MyPG\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>MyPG\Gravity</Filter>
+    </ClInclude>
+    <ClInclude Include="Bbox.h">
+      <Filter>MyPG\Bbox</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_cursor.h">
+      <Filter>MyPG\Tasks\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Tutorial.h">
+      <Filter>MyPG\Tasks\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Result.h">
+      <Filter>MyPG\Tasks\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_UI.h">
+      <Filter>MyPG\Tasks\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Dm2008_Ver1_3.h">
+      <Filter>LIB\DM2008</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>LIB</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_CameraMan.h">
+      <Filter>MyPG\Tasks\Cameraman</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleportation_Manager.h">
+      <Filter>MyPG\Obstacle\Teleportaion</Filter>
+    </ClInclude>
+    <ClInclude Include="BEffect.h">
+      <Filter>MyPG\BEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Effect_Manager.h">
+      <Filter>MyPG\Tasks\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>MyPG\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="easing.h" />
+    <ClInclude Include="MyPG.h" />
+    <ClInclude Include="MyMath.h">
+      <Filter>MyPG\MyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Physics_Manager.h">
+      <Filter>MyPG\Tasks\Physics_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_MapCore.h">
+      <Filter>MyPG\Tasks\map</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_MapFence.h">
+      <Filter>MyPG\Tasks\map</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_MapSide.h">
+      <Filter>MyPG\Tasks\map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\Shader\MyStdShader.fx" />
+  </ItemGroup>
+</Project>
