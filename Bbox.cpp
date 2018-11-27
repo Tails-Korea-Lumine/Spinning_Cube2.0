@@ -5,14 +5,14 @@
 #define VERTEX_ON_CUBE 8
 
 
-void Bbox::Rotate_Box(ML::Mat4x4* mat, const ML::QT& q)
+void Box::Rotate_Box(ML::Mat4x4* mat, const ML::QT& q)
 {
 	//回転量と位置を更新
 	this->pos = mat->TransformCoord(pos);
 	this->boxQT *= q;
 }
 
-void Bbox::Get_Triangle_Box3D(std::vector<Triangle>* result, const ML::Box3D& box, const ML::QT& rotation) const
+void Box::Get_Triangle_Box3D(std::vector<Triangle>* result, const ML::Box3D& box, const ML::QT& rotation) const
 {
 	//三角形ごときに保存する場所
 	//std::vector<Triangle> tri;
@@ -158,7 +158,7 @@ void Bbox::Get_Triangle_Box3D(std::vector<Triangle>* result, const ML::Box3D& bo
 }
 
 //あたり判定に必要ない三角形を表示しておく
-void Bbox::Marking_On_Unusable_Poligon(const Box_Side& side)
+void Box::Marking_On_Unusable_Poligon(const Box_Side& side)
 {
 	//引数の方向に相当する番号のところをマーキング
 	switch (side)
@@ -191,7 +191,7 @@ void Bbox::Marking_On_Unusable_Poligon(const Box_Side& side)
 }
 
 //Box3dと球体の最短距離の点を取る
-void Bbox::Get_ShortisetPoints_Box_to_Sphere(std::vector<ML::Vec3>* result, const ML::Box3D& box) const
+void Box::Get_ShortisetPoints_Box_to_Sphere(std::vector<ML::Vec3>* result, const ML::Box3D& box) const
 {
 
 	//ver2.0
@@ -207,7 +207,7 @@ void Bbox::Get_ShortisetPoints_Box_to_Sphere(std::vector<ML::Vec3>* result, cons
 
 }
 
-bool Bbox::Get_Collision_Poligon(std::vector<After_Collision>* result, std::vector<ML::Vec3> all_Points, const ML::Vec3& pos, const float& r, const ML::Vec3& speed)
+bool Box::Get_Collision_Poligon(std::vector<After_Collision>* result, std::vector<ML::Vec3> all_Points, const ML::Vec3& pos, const float& r, const ML::Vec3& speed)
 {
 	//位置補正したあたり判定用矩形
 	ML::Box3D area = this->collision_Base.OffsetCopy(this->pos);
@@ -238,23 +238,23 @@ bool Bbox::Get_Collision_Poligon(std::vector<After_Collision>* result, std::vect
 }
 
 
-BoxType Bbox::What_Type_Is_this_Box() const
+BoxType Box::What_Type_Is_this_Box() const
 {
 	return this->chip;
 }
 
-const ML::Vec3& Bbox::Get_Pos() const
+const ML::Vec3& Box::Get_Pos() const
 {
 	return this->pos;
 }
 
-string Bbox::Get_Id() const
+string Box::Get_Id() const
 {
 	return this->box_Id;
 }
 
 //引数なしコンストラクタ(ゼロクリア)
-Bbox::Bbox()
+Box::Box()
 {
 	this->chip = BoxType::Clear;
 	this->pos = ML::Vec3(0, 0, 0);
@@ -266,7 +266,7 @@ Bbox::Bbox()
 	}
 }
 //引数 : (箱のタイプ,位置,あたり判定矩形,初期回転量,ボックスのID)
-Bbox::Bbox(const BoxType& chip, const ML::Vec3& pos, const ML::Box3D& base, const ML::QT& qt, const string id)
+Box::Box(const BoxType& chip, const ML::Vec3& pos, const ML::Box3D& base, const ML::QT& qt, const string id)
 	:box_Id(id)
 {
 	this->chip = chip;

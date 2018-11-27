@@ -6,7 +6,7 @@
 #include "Collision.h"
 //#include "MyPG.h"
 
-enum BoxType
+enum class BoxType
 {
 	Clear = -1, //何もない
 	Road = 0, //道
@@ -31,7 +31,7 @@ enum Box_Side
 	Zplus, Zminus,
 };
 
-class Bbox 
+class Box 
 {
 private:
 	BoxType chip;//マスのマップチップ
@@ -55,10 +55,10 @@ public:
 
 	//メソッド	
 	//回転関数　引数 : (回転した位置 , 回転量)
-	void Rotate_Box(ML::Mat4x4* mat, const ML::QT& q);
+	virtual void Rotate_Box(ML::Mat4x4* mat, const ML::QT& q);
 
 	//あたり判定に必要ない三角形を表示しておく
-	void Marking_On_Unusable_Poligon(const Box_Side&);
+	virtual void Marking_On_Unusable_Poligon(const Box_Side&);
 	
 	//BoxTypeを確認する
 	BoxType What_Type_Is_this_Box() const;
@@ -69,15 +69,15 @@ public:
 
 	//衝突判定
 	//判定の結果値をもらう関数
-	bool Get_Collision_Poligon(std::vector<After_Collision>* result,std::vector<ML::Vec3> all_Points , const ML::Vec3& pos, const float& r, const ML::Vec3& speed);
+	virtual bool Get_Collision_Poligon(std::vector<After_Collision>* result,std::vector<ML::Vec3> all_Points , const ML::Vec3& pos, const float& r, const ML::Vec3& speed);
 
 	//コンストラクタ・デストラクタ
 	//引数なしコンストラクタ(ゼロクリア)
-	Bbox();
+	Box();
 	//引数 : (箱のタイプ,位置,あたり判定矩形,初期回転量,ボックスのID)
-	Bbox(const BoxType& chip, const ML::Vec3& pos, const ML::Box3D& base, const ML::QT& qt, const string id);
+	Box(const BoxType& chip, const ML::Vec3& pos, const ML::Box3D& base, const ML::QT& qt, const string id);
 	//コピーコンストラクタ
-	Bbox operator= (const Bbox& b)
+	Box operator= (const Box& b)
 	{		
 		this->boxQT = b.boxQT;
 		this->chip = b.chip;
@@ -93,5 +93,5 @@ public:
 		return b;
 	}
 
-	~Bbox(){}
+	virtual ~Box(){}
 };

@@ -100,6 +100,27 @@
     <Filter Include="MyPG\Tasks\Physics_Manager">
       <UniqueIdentifier>{165f9a01-26ef-4713-ae03-34733c34f1d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MyPG\Bbox\Wall">
+      <UniqueIdentifier>{b345765b-1d5c-4ea7-a28d-0954300d52d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Bbox\Teleportation">
+      <UniqueIdentifier>{88cc781d-84b6-4637-9c70-76aca1749d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Bbox\Light_Switch">
+      <UniqueIdentifier>{ea6687d4-5f74-4a27-8cf9-db34b0d5d4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Bbox\Goal">
+      <UniqueIdentifier>{de2086c8-ebfc-4288-a277-c7ca2a502d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Shape">
+      <UniqueIdentifier>{c947e179-5917-4fc0-8c78-321d8ab5e665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Shape\Cube">
+      <UniqueIdentifier>{0b91bdf2-9f43-4795-956c-c8ea46bbad5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyPG\Shape\Sphere">
+      <UniqueIdentifier>{6cc00fb1-0367-4f87-be6a-790742101b64}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="myLib.cpp">
